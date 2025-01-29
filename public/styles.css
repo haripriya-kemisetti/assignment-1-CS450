@@ -1,0 +1,114 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+.page {
+    width: 210mm; 
+    height: 297mm; 
+}
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+}
+.left h1 {
+    font-family: Calibri;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.left h2 {
+    font-family: Calibri;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.right {
+    margin-right: 20px;
+    margin-left: 300px;
+    margin-top: 40px;
+    text-align: left; 
+    font-size: 11px;
+    line-height: 0.75;
+}
+.yellow-divisor {
+    width: 100%;
+    height: 5px;
+    background-color: #ffce00;
+    margin-top: 70px;
+    margin-bottom: 1px;
+}
+.divider {
+    width: 95%;
+    height: 1.2px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin: 20px auto 2px auto;
+}
+.content {
+    display: flex;
+    font-family: Arial;
+    margin-top: 15px;
+    justify-content: flex-start;
+}
+
+.sub-heads {
+    font-family: Calibri;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    align-items: flex-start;
+}
+
+.work-heads {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.work-heads2 {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.description{
+    max-width: 480px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    justify-content:space-between
+}
+.skills-list {
+    margin-left: 53px;
+    font-size: 16px;
+}
+
+.skills-list p {
+    margin: 3px ;
+    margin-left: 3px;
+    font-family: Arial;
+}
+.vertical {
+    display: block;
+}
+.degree, .years, .gpa {
+    display: block; /* Ensures each element is on a new line */
+    margin-top: 5px;
+    margin-bottom: 5px; /* Adjust the space between each element */
+}
